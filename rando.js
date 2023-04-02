@@ -13,7 +13,7 @@ else if(num3>num1 && num3>num1){
     big = "As the largest number in your ID is variable 3, "  + num3 + ", that must mean you are a high-level employee. Welcome to the creature files.";
 }
 else{
-    big = "As your ID has at least two numbers of the same value, that means you are an administrator, it is with greatest honor to welcome you to the creature files.";
+    big = "As your ID has at least two highest numbers of the same value, that means you are an administrator, it is with greatest honor to welcome you to the creature files.";
 }
 
 var totalMinTime = num1*num2;
