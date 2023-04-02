@@ -12,6 +12,9 @@ else if(num2>num1 && num2>num3){
 else if(num3>num1 && num3>num1){
     big = "As the largest number in your ID is variable 3, "  + num3 + ", that must mean you are a high-level employee. Welcome to the creature files.";
 }
+else if(num3==num2 && num3==num1){
+    big = "As your ID has 3 numbers of the exact same value, then that means the prophecies were true... There is indeed another O5 member! Praise the Lord!";
+}
 else{
     big = "As your ID has at least two highest numbers of the same value, that means you are an administrator, it is with greatest honor to welcome you to the creature files.";
 }
